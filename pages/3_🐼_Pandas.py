@@ -173,4 +173,4 @@ with Final:
         """Todo el codigo de este ejemplo se encuentra en el siguiente Link
         a mi repositorio en :green[GitHub].""")
     st.link_button(":green[Ir a GitHub]",
-                   "https://github.com/DiegoImp?tab=repositories")
+                   "https://github.com/DiegoImp/Demographic-Data-Analyzer-project")

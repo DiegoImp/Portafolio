@@ -11,7 +11,7 @@ with Intro1:
              href="https://en.wikiversity.org/wiki/Database_Examples/Northwind/SQLite" target="_blank">  Northwind</a> en SQLite.""", unsafe_allow_html=True)
     st.write("La base de datos :red[Northwind] simula la operación de una empresa ficticia de importación y exportación de productos. Contiene :blue[tablas] sobre productos, clientes, empleados, pedidos y otros aspectos relevantes para gestionar un negocio.")
 with Intro2:
-    st.image(r"D:\Programacion\Python\API_Streamlit\util\data\SQL\Northwind.png")
+    st.image("util/data/SQL/Northwind.png")
 
 st.markdown("---")
 consulta = st.container()
@@ -76,7 +76,7 @@ with plot:
     st.dataframe(top_products, width=800)
     st.write("")
     st.write("")
-    st.image(r"D:\Programacion\Python\API_Streamlit\util\data\SQL\Top_Products.png")
+    st.image(r"util/data/SQL/Top_Products.png")
     st.write("Con esto ya tenemos el grafico de los 10 productos mas vendidos.")
 st.markdown("---")
 select2, plot2 = st.columns(2)
@@ -121,7 +121,7 @@ with plot2:
     st.write("Muestra unicamente 9 ya que solo hay 9 empleados.")
     st.write("")
     st.write("")
-    st.image(r"D:\Programacion\Python\API_Streamlit\util\data\SQL\Top_Employees.png")
+    st.image("util/data/SQL/Top_Employees.png")
     st.write("Con esto ya tenemos el grafico de los 9 empleados con mas ventas.")
 st.markdown("---")
 select3, plot3 = st.columns(2)
@@ -162,8 +162,7 @@ with plot3:
     st.write("Muestra unicamente 9 ya que solo hay 9 empleados.")
     st.write("")
     st.write("")
-    st.image(
-        r"D:\Programacion\Python\API_Streamlit\util\data\SQL\Top_Employees_Sells.png")
+    st.image("util/data/SQL/Top_Employees_Sells.png")
     st.write("Con esto ya tenemos el grafico de los 9 empleados con mas ventas.")
 st.markdown("---")
 st.write("## Otras consultas que se pueden realizar")
@@ -212,4 +211,4 @@ with Final:
         """Todo el codigo de este ejemplo se encuentra en el siguiente Link
         a mi repositorio en :green[GitHub].""")
     st.link_button(":green[Ir a GitHub]",
-                   "https://github.com/DiegoImp?tab=repositories")
+                   "https://github.com/DiegoImp/Base-de-Datos")

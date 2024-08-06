@@ -8,24 +8,30 @@ side_col1, side_col2 = st.sidebar.columns([1, 3])
 with side_col1:
     st.write("")
     st.image(
-        'D:\\Programacion\\Python\\API_Streamlit\\util\\data\\sidebar_logos\\gmail1.png')
+        r'util\data\sidebar_logos\gmail1.png')
     st.write("")
     st.image(
-        'D:\\Programacion\\Python\\API_Streamlit\\util\\data\\sidebar_logos\\celular.png')
+        'util\data\sidebar_logos\celular.png')
     st.write("")
     st.image(
-        r"D:\Programacion\Python\API_Streamlit\util\data\sidebar_logos\googlemaps.png")
+        r"util\data\sidebar_logos\googlemaps.png")
     st.image(
-        r"D:\Programacion\Python\API_Streamlit\util\data\sidebar_logos\github_logo.png", caption="Github")
+        r"util\data\sidebar_logos\github_logo.png", caption="Github")
+    st.image(r"util\data\sidebar_logos\BBVA.jpeg")
 with side_col2:
-    st.write("""#### Correo:
+    st.write("""#### :red[Correo]:
                         """)
     st.write("diegoimptrabajo@gmail.com")
-    st.write("#### Celular:")
+    st.write("#### :orange[Celular]:")
     st.write("261-659-7552")
-    st.write("#### Ubicacion:")
+    st.write("#### :rainbow[Ubicacion]:")
     st.write("Argentina, Mendoza, Godoy Cruz")
-    st.write("""<a style="color:white; text-decoration: underline;" href="https://github.com/DiegoImp?tab=repositories" target="_blank">Mi Repositorio</a>""", unsafe_allow_html=True)
+    st.write("""<a style="color:#009846; text-decoration: underline;" href="https://github.com/DiegoImp?tab=repositories" target="_blank">Mi Repositorio</a>""", unsafe_allow_html=True)
+    st.write("")
+    st.write("")
+    st.write("")
+    st.write("")
+    st.write(""":blue[CBU]: 0170240040000032756588""")
 # ---------------------------------------------------------------------------------------------------------
 # Intro
 col1, col2 = st.columns(2, gap='large')
@@ -35,7 +41,8 @@ with col1:
 Esta es una página creada por mí para mostrar mis habilidades y proyectos.\n
 Espero que les muestre quién soy y qué puedo aportar a su equipo.""")
 with col2:
-    st.write("# Imagen mia")
+    st.image(
+        r'util\data\home\Yo.jpg', width=300)
 st.markdown("---")
 # ---------------------------------------------------------------------------------------------------------
 # About me
@@ -83,12 +90,12 @@ with Edu_col1:
     st.write("# Educación")
     Edu_img, Edu_text = st.columns([1, 3])
     with Edu_img:
-        st.image(r"D:\Programacion\Python\API_Streamlit\util\data\home\UTN_logo.jpg",
+        st.image(r"util\data\home\UTN_logo.jpg",
                  caption="Universidad Tecnológica Nacional")
 
-        st.image(r"D:\Programacion\Python\API_Streamlit\util\data\home\CdM_logo.jpeg",
+        st.image(r"util\data\home\CdM_logo.jpeg",
                  caption="Compañia de Maria")
-        st.image(r"D:\Programacion\Python\API_Streamlit\util\data\home\Master_logo.png",
+        st.image(r"util\data\home\Master_logo.png",
                  caption="Master English Center")
     with Edu_text:
         st.write(
@@ -131,13 +138,13 @@ with Edu_col2:
         st.write("")
         st.write("")
         st.image(
-            r"D:\Programacion\Python\API_Streamlit\util\data\home\freecodecamp_logo.png")
+            r"util\data\home\freecodecamp_logo.png")
         st.write("")
         st.write("")
         st.write("")
         st.write("")
         st.image(
-            r"D:\Programacion\Python\API_Streamlit\util\data\home\Youtube_logo.png")
+            r"util\data\home\Youtube_logo.png")
 st.markdown("---")
 # ---------------------------------------------------------------------------------------------------------
 # Hobbies
@@ -148,10 +155,9 @@ with Casual:
     st.write("## Videojuegos")
     st.write(
         """Gracias a mis ahorros y a un trabajo de medio tiempo, pude comprar una excelente computadora que me permitio jugar a juegos como :orange[The Witcher 3], :red[Saga Souls],:green[Saga Assasins Creed], y :blue[Overwatch 2], donde cada uno me enseño cosas distintas.""")
-    imagenes1 = ["D:\\Programacion\\Python\\API_Streamlit\\util\\data\\home\\Witcher3.jpeg",
-                 "D:\\Programacion\\Python\\API_Streamlit\\util\\data\\home\\overwatch.png"]
-    imagenes2 = ["D:\\Programacion\\Python\\API_Streamlit\\util\\data\\home\\Creed.png", "D:\\Programacion\\Python\\API_Streamlit\\util\\data\\home\\Souls.webp"
-                 ]
+    imagenes1 = ["util/data/home/Witcher3.jpeg",
+                 "util/data/home/overwatch.png"]
+    imagenes2 = ["util/data/home/Creed.png", "util/data/home/Souls.webp"]
     im1, im2 = st.columns(2)
     im1.image(imagenes1, caption=[
               "The Witcher 3: Explorar todas las posibilidades", "Overwatch 2: Comunicacion y Trabajo en Equipo"], width=200)
@@ -161,10 +167,10 @@ with Multip:
     st.write("## Series y Anime")
     st.write(
         """Soy muy fan del anime y las series aunque no le dedico tiempo apenas,el unico que sigo al dia desde hace años es :red[One piece] y :blue[Fate/Grand Order] , series que me encantan son :orange[the office] y :green[How i met your mother].""")
-    imagenes3 = ["D:\\Programacion\\Python\\API_Streamlit\\util\\data\\home\\OnePiece.png",
-                 "D:\\Programacion\\Python\\API_Streamlit\\util\\data\\home\\office.png"]
-    imagenes4 = ["D:\\Programacion\\Python\\API_Streamlit\\util\\data\\home\\HIMYM.jpeg",
-                 "D:\\Programacion\\Python\\API_Streamlit\\util\\data\\home\\fate.jpeg"]
+    imagenes3 = ["util/data/home/OnePiece.png",
+                 "util/data/home/office.png"]
+    imagenes4 = ["util/data/home/HIMYM.jpeg",
+                 "util/data/home/fate.jpeg"]
     im3, im4 = st.columns(2)
     im3.image(imagenes3, caption=["One Piece", "The Office"], width=210)
     im4.image(imagenes4, caption=[
