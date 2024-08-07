@@ -11,7 +11,7 @@ with Intro1:
              href="https://en.wikiversity.org/wiki/Database_Examples/Northwind/SQLite" target="_blank">  Northwind</a> en SQLite.""", unsafe_allow_html=True)
     st.write("La base de datos :red[Northwind] simula la operación de una empresa ficticia de importación y exportación de productos. Contiene :blue[tablas] sobre productos, clientes, empleados, pedidos y otros aspectos relevantes para gestionar un negocio.")
 with Intro2:
-    st.image("util/data/SQL/Northwind.png")
+    st.image("./util/data/SQL/Northwind.png")
 
 st.markdown("---")
 consulta = st.container()
@@ -70,13 +70,13 @@ plt.show()""")
 
 with plot:
     top_products = pd.read_csv(
-        r"D:\Programacion\Python\API_Streamlit\util\data\SQL\Top_Products.csv", index_col=0,)
+        r"./util/data/SQL/Top_Products.csv", index_col=0,)
     top_products.index = pd.Index(range(1, 11))
     st.write("## :blue[Tabla]")
     st.dataframe(top_products, width=800)
     st.write("")
     st.write("")
-    st.image(r"util/data/SQL/Top_Products.png")
+    st.image(r"./util/data/SQL/Top_Products.png")
     st.write("Con esto ya tenemos el grafico de los 10 productos mas vendidos.")
 st.markdown("---")
 select2, plot2 = st.columns(2)
@@ -114,14 +114,14 @@ with select2:
 
 with plot2:
     top_employees = pd.read_csv(
-        r"D:\Programacion\Python\API_Streamlit\util\data\SQL\Top_Employees.csv", index_col=0,)
+        r"./util/data/SQL/Top_Employees.csv", index_col=0,)
     top_employees.index = pd.Index(range(1, 10))
     st.write("## :blue[Tabla]")
     st.dataframe(top_employees, width=800)
     st.write("Muestra unicamente 9 ya que solo hay 9 empleados.")
     st.write("")
     st.write("")
-    st.image("util/data/SQL/Top_Employees.png")
+    st.image("./util/data/SQL/Top_Employees.png")
     st.write("Con esto ya tenemos el grafico de los 9 empleados con mas ventas.")
 st.markdown("---")
 select3, plot3 = st.columns(2)
@@ -155,14 +155,14 @@ plt.show()""")
 
 with plot3:
     top_employees_Sells = pd.read_csv(
-        r"D:\Programacion\Python\API_Streamlit\util\data\SQL\Top_Employees_Sells.csv", index_col=0, nrows=9)
+        r"./util/data/SQL/Top_Employees_Sells.csv", index_col=0, nrows=9)
     top_employees_Sells.index = pd.Index(range(1, 10))
     st.write("## :blue[Tabla]")
     st.dataframe(top_employees_Sells, width=800)
     st.write("Muestra unicamente 9 ya que solo hay 9 empleados.")
     st.write("")
     st.write("")
-    st.image("util/data/SQL/Top_Employees_Sells.png")
+    st.image("./util/data/SQL/Top_Employees_Sells.png")
     st.write("Con esto ya tenemos el grafico de los 9 empleados con mas ventas.")
 st.markdown("---")
 st.write("## Otras consultas que se pueden realizar")
