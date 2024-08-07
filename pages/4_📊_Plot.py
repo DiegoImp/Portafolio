@@ -26,7 +26,7 @@ Utilizando un conjunto de datos del valor diario de :green[Bitcoin] y :blue[Ethe
 with frame:
     st.write("# :red[Muestra de los datos]:")
     df = pd.read_csv(
-        r'util\data\Plot\btc-eth-prices-outliers.csv',
+        r'./util/data/Plot/btc-eth-prices-outliers.csv',
         index_col=0,
         parse_dates=True
     )

@@ -5,7 +5,7 @@ st.set_page_config(page_title="Diego's Portafolio",
                    page_icon="👋", layout="wide")
 
 df = pd.read_csv(
-    r'util\data\Pandas\adult.data.csv')
+    r'./util/data/Pandas/adult.data.csv')
 Muestra = df.head(10)
 Intro, Info = st.columns([2, 1])
 with Intro:
