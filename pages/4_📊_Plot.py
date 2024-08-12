@@ -64,7 +64,7 @@ df_na['Ether'].isna().value_counts() # Cuenta la cantidad de nans
 df_na.loc[df_na['Ether'].isna()] # Muestra los valores nans en un DataFrame
 """)
     st.write("""#### :orange[Rellenando los valores nans]:
-Esto se puede hacer utilizando el forward fill o el backward fill.En este ejemplo usare el forward fill.
+Esto se puede hacer utilizando el forward fill o el backward fill. En este ejemplo usare el forward fill.
 """)
     st.code("""# Forward fill:
 df['Ether'].fillna(method='ffill', inplace=True)
@@ -179,7 +179,7 @@ lower_limit = df['Bitcoin'].mean() - 2 * df['Bitcoin'].std()
     st.write("Viendo que el :blue[Lower Limit] es: " + str(lower_limit))
     st.write("""### :orange[Conclusion]:
 Observando la grafica uno puede ver que el limite inferior es inutil siendo que cualquier valor negativo es invalido, pero el limite superior es util para encontrar valores invalidos.
-En especial aquellos valores mayores a $27,369.Los cuales se pueden apreciar en el final de la grafica.""")
+En especial aquellos valores mayores a $27,369. Los cuales se pueden apreciar en el final de la grafica.""")
     st.write("")
     st.write("")
 

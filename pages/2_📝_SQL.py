@@ -45,7 +45,7 @@ with select:
         Limit 10
         '''""")
     st.write(
-        "Con esta consulta obtenemos los 10 productos mas vendidos,junto a sus ganancias, y en orden ascendente.")
+        "Con esta consulta obtenemos los 10 productos mas vendidos, junto a sus ganancias, y en orden ascendente.")
     st.write("")
     st.write("")
     st.write("")
@@ -92,7 +92,7 @@ with select2:
         Limit 10
         '''""")
     st.write(
-        "Con esta consulta obtenemos los 10 empleados mas rentables,junto a sus ventas, y en orden ascendente.")
+        "Con esta consulta obtenemos los 10 empleados mas rentables, junto a sus ventas, y en orden ascendente.")
     st.write("")
     st.write("")
     st.write("")

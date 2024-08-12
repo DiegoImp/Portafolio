@@ -70,7 +70,7 @@ with Me_col1:
     )
 with Me_col2:
     st.write("# Metas")
-    st.write("Estoy ansioso por aprender de primera mano cómo es trabajar en un campo dinámico y en constante evolución.Donde pueda tomar desafios que me ayuden a crecer tanto personal como profesionalmente.Ademas otra de mis principales metas es seguir avanzando en mi educación y aplicación práctica de Machine Learning en casos reales.")
+    st.write("Estoy ansioso por aprender de primera mano cómo es trabajar en un campo dinámico y en constante evolución. Donde pueda tomar desafios que me ayuden a crecer tanto personal como profesionalmente. Ademas otra de mis principales metas es seguir avanzando en mi educación y aplicación práctica de Machine Learning en casos reales.")
     st.markdown(
         """
         #### Algunas de mis metas son:
@@ -99,7 +99,7 @@ with Edu_col1:
                  caption="Master English Center")
     with Edu_text:
         st.write(
-            "Gracias a mi Universidad eh sido capaz de comprender importantes aspectos de la computacion,y Matematicas, ademas de programas como :orange[java] y :green[c++] , :red[bases de datos] y algoritmos,pero lo que mas me apasiono fue el mundo del :blue[Data Science] y el :rainbow[machine learning],por lo que decidi seguir aprendiendo por mi cuenta y aplicando mis conocimientos en proyectos reales.")
+            "Gracias a mi Universidad eh sido capaz de comprender importantes aspectos de la computacion, y Matematicas, ademas de programas como :orange[java] y :green[c++] , :red[bases de datos] y algoritmos, pero lo que mas me apasiono fue el mundo del :blue[Data Science] y el :rainbow[machine learning], por lo que decidi seguir aprendiendo por mi cuenta y aplicando mis conocimientos en proyectos reales.")
         st.write("")
         st.write("")
         st.write(
@@ -149,12 +149,12 @@ st.markdown("---")
 # ---------------------------------------------------------------------------------------------------------
 # Hobbies
 st.write("# Hobbies")
-st.write("En mi tiempo libre, disfruto de actividades como escuchar música,ver anime y manga, y jugar videojuegos.")
+st.write("En mi tiempo libre, disfruto de actividades como escuchar música, ver anime y manga, y jugar videojuegos.")
 Casual, Multip = st.columns(2)
 with Casual:
     st.write("## Videojuegos")
     st.write(
-        """Gracias a mis ahorros y a un trabajo de medio tiempo, pude comprar una excelente computadora que me permitio jugar a juegos como :orange[The Witcher 3], :red[Saga Souls],:green[Saga Assasins Creed], y :blue[Overwatch 2], donde cada uno me enseño cosas distintas.""")
+        """Gracias a mis ahorros y a un trabajo de medio tiempo, pude comprar una excelente computadora que me permitio jugar a juegos como :orange[The Witcher 3], :red[Saga Souls], :green[Saga Assasins Creed], y :blue[Overwatch 2], donde cada uno me enseño cosas distintas.""")
     imagenes1 = ["./util/data/home/Witcher3.jpeg",
                  "./util/data/home/overwatch.png"]
     imagenes2 = ["./util/data/home/Creed.png", "util/data/home/Souls.webp"]
@@ -166,7 +166,7 @@ with Casual:
 with Multip:
     st.write("## Series y Anime")
     st.write(
-        """Soy muy fan del anime y las series aunque no le dedico tiempo apenas,el unico que sigo al dia desde hace años es :red[One piece] y :blue[Fate/Grand Order] , series que me encantan son :orange[the office] y :green[How i met your mother].""")
+        """Soy muy fan del anime y las series aunque no le dedico tiempo apenas, el unico que sigo al dia desde hace años es :red[One piece] y :blue[Fate/Grand Order] , series que me encantan son :orange[the office] y :green[How i met your mother].""")
     imagenes3 = ["./util/data/home/OnePiece.png",
                  "./util/data/home/office.png"]
     imagenes4 = ["./util/data/home/HIMYM.jpeg",
