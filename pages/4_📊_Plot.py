@@ -134,10 +134,11 @@ with code:
 st.markdown("---")
 Distribucion = st.container()
 with Distribucion:
-    st.write("""# :red[Visualizando distribuciones bivariadas]:
+    st.write("""
+            # :red[Visualizando distribuciones bivariadas]:
     Una distribucion bivariada es una distribucion de dos variables aleatorias, en este caso :green[Bitcoin] y :blue[Ether] y el como se relacionan.
 
-    La forma mas comun de visualizar una distribucion bivariada es con un :orange[scatterplot], el :red[jointplot] tambien incluye la distribucion de las variables.
+    La forma mas comun de visualizar una distribucion bivariada es con un :orange[scatterplot] , el :red[jointplot] tambien incluye la distribucion de las variables.
     """)
     plot1, plot2 = st.columns(2)
     with plot1:
